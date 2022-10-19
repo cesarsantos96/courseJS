@@ -98,9 +98,82 @@
 ## Funcionalidades gerais 
 
 - Criar algorítimos e programas para executar no navegador: client side;
-- Manipular o DOM: elementos, eventos e  estilos;
+- Manipular o DOM: elementos, eventos (cliques, submit) e  estilos;
 - Node.Js: framework JS para back-end / runtime em JS;
 - Mongo-db: banco de dados em JS;
-- React / Vue.js / Angular: frameworks JS para desenvolvimento mobile;
+- React / Vue.js / Angular: frameworks JS para desenvolvimento web / mobile;
 - React Native: framework para desenvolvimento mobile;
+- Receber e manipular dados;
+- Tomar decisões baseados em lógica computacional;
+- Loop e interações;
+- condições de saída;
+
+### Executar o JS 
+
+- Console Browsers;
+- Editores: Sublime, Visual Studio Code;
+- JS Fiddle https://jsfiddle.net/
+
+## Variáveis
+
+São utilizados para referenciar espaço na memória;
+
+- var;
+- const; (fica com valor Imutável)
+- let;
+- string; (tipo de variável para conjunto de caracteres)
+- tipagem; (número ou string)
+- array; (conjunto de valores)
+
+## Operadores
+
+
+## Aritméticos: retornam o resultado de uma operação:
+
+- Soma; +
+- Subtração; -
+- Multiplicação; *
+- Divisão; /
+- Módulo (resto da divisão); %
+- Math: random(), round(), sqrt()
+
+
+
+## Comparadores matemáticos: teste lógico, retorno booleano (true / false)
+
+
+- Maior que >; 
+- Menor que <; 
+- Maior ou igual>=;
+- Menos ou igual<=; 
+
+
+## Comparadores lógicos: teste lógico, retorno booleano (true / false)
+
+- ==          igualdade entre sentenças (valor); 
+- !=          diferença entre sentenças (valor);
+- ===         igualdade entre sentenças (valor e tipo);
+- !==         diferença entre sentenças (valor e tipo);
+
+a == b = true; 
+a != b = false;
+
+* Operados de  Atribuição
+
+a = b;
+a += b; 
+a -= b;
+a *= b;
+a /= b;
+a %= b;
+Adiciona 1 ++;
+Subtrai 1  --;
+
+
+## Operadores de lógica e junção lógica
+
+- !  NÃO (NOT);
+- && E (AND);
+- || OU (OR);
+ 
 
