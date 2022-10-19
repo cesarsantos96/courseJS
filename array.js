@@ -2,7 +2,7 @@
 
 
 var km;
-var revisao = 3;
+var revisao = 10;
 
 for (km = 0; km <= revisao; km++) {
     console.log("apenas " + km + "kms então pode rodar");

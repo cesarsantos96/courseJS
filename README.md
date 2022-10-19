@@ -235,5 +235,28 @@ Subtrai 1  --;
             console.log('não temos essa cor disponível')
     
     }
+## Media escoloar 
+
+        let nota1 = 10;
+    let nota2 = 9;
+    let nota3 = 2;
+    let nota4 = 5.5;
+
+    let media = (nota1 + nota2 + nota3 + nota4) / 4
+    if (media >= 8) {
+        console.log("Aluno Aprovado");
+
+    }
+    else {
+        console.log("Aluno Reprovado");
+    }
+
+## Laços de Repetição
+
+for ([expressaoInicial]; [condição]; [incrementoInicial]); 
+
+for ([km = 0]; [km <= revisao]; [km++]);
+
+### Cálculo de média de alunos
 
     
