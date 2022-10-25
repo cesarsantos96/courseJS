@@ -10,4 +10,6 @@ if (media >= 8) {
 }
 else {
     console.log("Aluno Reprovado");
+    console.log(media);
 }
+
