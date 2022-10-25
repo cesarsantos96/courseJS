@@ -235,7 +235,7 @@ switch (cor){
         console.log('não temos essa cor disponível')
     
     }
-## Media escoloar 
+## Media escolar 
 
         let nota1 = 10;
     let nota2 = 9;
