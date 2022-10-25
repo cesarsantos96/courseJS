@@ -221,18 +221,18 @@ Subtrai 1  --;
 
 ## Switch
 
-    switch (cor){
-        case "branco":
-            meuCarro = "branco";
-            break;
-        case "vermelho":
-            meuCarro = "vermelho";
-            break;
-        case "amarelo":
-            meuCarro = "amarelo";
-            break;
-        default : 
-            console.log('não temos essa cor disponível')
+switch (cor){
+    case "branco":
+        meuCarro = "branco";
+         break;
+    case "vermelho":
+        meuCarro = "vermelho";
+        break;
+    case "amarelo":
+        meuCarro = "amarelo";
+        break;
+    default : 
+        console.log('não temos essa cor disponível')
     
     }
 ## Media escoloar 
