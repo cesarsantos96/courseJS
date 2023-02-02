@@ -10,18 +10,15 @@ function calcularMedia(notas) {
 
 }
 
-let media; //escopo global
+let media; // escopo global
 
 function aprovacao(notas) {
+    let media = calcularMedia(notas); // escopo da função
 
-    let media = calcularMedia(notas);
-    let condicao = media >= 7 ? "aprovado" : "reprovado";
+    let condicao = media >= 8 ? "aprovado" : "reprovado";
 
-    return condicao;
+    return 'Média: ' + media + '- Resultado: ' + condicao;
 
 }
 
-//console.log
-
-console.log("Média: " + calcularMedia([8, 8]))
-console.log(aprovacao(calcularMedia([8, 8])))
+console.log(aprovacao([9, 8, 7, 6]));
