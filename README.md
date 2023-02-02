@@ -251,12 +251,59 @@ switch (cor){
         console.log("Aluno Reprovado");
     }
 
-## Laços de Repetição
+## Laços de Repetição (Loops)
 
 for ([expressaoInicial]; [condição]; [incrementoInicial]); 
 
 for ([km = 0]; [km <= revisao]; [km++]);
 
+----
+
+while([condição] ){
+    [execução]
+}
+var contador = 0;
+while (contador < 10 >){
+    contador++;
+}
+
+var hora = 24;
+while (hora > 0) {
+    
+    console.log(hora); 
+    hora--;
+    }
+--- 
+do {
+    execução
+} while (condição)
 ### Cálculo de média de alunos
 
-    
+    var alunos = [
+    [6, 7, 8, 6],
+    [8, 5, 6, 8],
+    [10, 6, 8, 7]
+]
+
+var nota = 0;
+for (var i = 0; i < alunos.length; i++) {
+    nota = 0
+    notasAluno = alunos[i]
+    console.log("Aluno: " + i);
+    console.log("Notas: " + notasAluno);
+
+    for (c = 0; c < notasAluno.length; c++) {
+        nota += notasAluno[c];
+    }
+
+    media = nota / 4;
+
+    if (media >= 7) {
+        resultado = "aprovado ";
+    } else {
+        resultado = "reprovado ";
+    }
+
+    console.log("Media: " + media + "-" + resultado);
+}
+
