@@ -287,8 +287,8 @@ do {
     [10, 6, 8, 7]
 ]
 
-var nota = 0;
-for (var i = 0; i < alunos.length; i++) {
+    var nota = 0;
+    for (var i = 0; i < alunos.length; i++) {
     nota = 0
     notasAluno = alunos[i]
     console.log("Aluno: " + i);
