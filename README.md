@@ -253,12 +253,13 @@ switch (cor){
 
 ## Laços de Repetição (Loops)
 
+
 for ([expressaoInicial]; [condição]; [incrementoInicial]); 
 
 for ([km = 0]; [km <= revisao]; [km++]);
 
 ----
-
+#
 while([condição] ){
     [execução]
 }
@@ -273,6 +274,7 @@ while (hora > 0) {
     console.log(hora); 
     hora--;
     }
+#
 --- 
 do {
     execução
