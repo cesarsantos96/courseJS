@@ -285,8 +285,7 @@ do {
     [6, 7, 8, 6],
     [8, 5, 6, 8],
     [10, 6, 8, 7]
-]
-
+    
     var nota = 0;
     for (var i = 0; i < alunos.length; i++) {
     nota = 0
