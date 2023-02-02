@@ -160,14 +160,14 @@
 
 * Operados de  Atribuição
 
- a = b;
- a += b; 
- a -= b;
-a *= b;
-a /= b;
-a %= b;
-Adiciona 1 ++;
-Subtrai 1  --;
+        a = b;
+        a += b; 
+        a -= b;
+        a *= b;
+        a /= b;
+        a %= b;
+        Adiciona 1 ++;
+        Subtrai 1  --;
 
 
 ## Operadores de lógica e junção lógica
@@ -209,20 +209,20 @@ Subtrai 1  --;
     }
 * Exemplo
 
-    if (cor == "preto"){
-        meuCarro = "preto";
-    } else if (cor == "vermelho"){
-        meuCarro = "cinza";
-    } else if (cor == "amarelo"){
-        meuCarro = "branco"
-    } else {
-        meuCarro = "azul";
-    }
+        if (cor == "preto"){
+            meuCarro = "preto";
+        } else if (cor == "vermelho"){
+            meuCarro = "cinza";
+        } else if (cor == "amarelo"){
+            meuCarro = "branco"
+        } else {
+            meuCarro = "azul";
+         }
 
 ## Switch
 
-switch (cor){
-    case "branco":
+    switch (cor){
+     case "branco":
         meuCarro = "branco";
          break;
     case "vermelho":
@@ -237,7 +237,7 @@ switch (cor){
     }
 ## Media escolar 
 
-        let nota1 = 10;
+    let nota1 = 10;
     let nota2 = 9;
     let nota3 = 2;
     let nota4 = 5.5;
@@ -254,31 +254,31 @@ switch (cor){
 ## Laços de Repetição (Loops)
 
 
-for ([expressaoInicial]; [condição]; [incrementoInicial]); 
+    for ([expressaoInicial]; [condição]; [incrementoInicial]); 
 
-for ([km = 0]; [km <= revisao]; [km++]);
+    for ([km = 0]; [km <= revisao]; [km++]);
 
 ----
 #
-while([condição] ){
+    while([condição] ){
     [execução]
-}
-var contador = 0;
-while (contador < 10 >){
+    }
+    var contador = 0;
+    while (contador < 10 >){
     contador++;
-}
+    }
 
-var hora = 24;
-while (hora > 0) {
+    var hora = 24;
+    while (hora > 0) {
     
     console.log(hora); 
     hora--;
     }
 #
 --- 
-do {
+    o {
     execução
-} while (condição)
+    } while (condição)
 ### Cálculo de média de alunos
 
     var alunos = [
