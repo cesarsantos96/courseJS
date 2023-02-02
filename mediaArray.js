@@ -8,11 +8,12 @@ var alunos = [
 var nota = 0;
 for (var i = 0; i < alunos.length; i++) {
     nota = 0
-    aluno = alunos[i]
-    console.log("Aluno: " + aluno);
+    notasAluno = alunos[i]
+    console.log("Aluno: " + i);
+    console.log("Notas: " + notasAluno);
 
-    for (c = 0; c < aluno.length; c++) {
-        nota += aluno[c];
+    for (c = 0; c < notasAluno.length; c++) {
+        nota += notasAluno[c];
     }
 
     media = nota / 4;
