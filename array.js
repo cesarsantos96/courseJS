@@ -4,7 +4,6 @@
 var km;
 var revisao = 10;
 
-for (km = 0; km <= revisao; km++) {
-    console.log("apenas " + km + "kms então pode rodar");
-
+for (km = 0; km < revisao; km++) {
+    console.log("apenas " + km + " km então pode rodar");
 }
