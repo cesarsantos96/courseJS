@@ -370,3 +370,17 @@
             
                console.log("Média: " + calcularMedia([8,8]))
                console.log(aprovacao(calcularMedia([8,8])))
+
+##  Funções Recursivas
+
+        function contagemRegressiva(numero) {
+
+            console.log(numero);
+
+            let proximoNumero = numero - 1;
+
+            if (proximoNumero > 0)
+                contagemRegressiva(proximoNumero);
+        }
+
+        contagemRegressiva(10);
