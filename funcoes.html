@@ -9,54 +9,24 @@
 </head>
 
 <body>
+    <script type="text/javascript" src="/JS/script.js"></script>
 
-    <script>
+    <div class="conteiner">
 
+        <form id="formulario01">
+            <input type="text" placeholder="digite um número" name="n1">
+            <input type="text" placeholder="digite um número" name="n2">
+            <input type="text" placeholder="digite um número" name="n3">
+            <input type="text" placeholder="digite um número" name="n4">
+            <button type="submit">Enviar</button>
+        </form>
 
-        var alunos = [
-            [6, 7, 8, 6],
-            [8, 5, 6, 8],
-            [10, 6, 8, 7]
-        ]
-
-        var nota = 0;
-        for (var i = 0; i < alunos.length; i++) {
-            nota = 0
-            notasAluno = alunos[i]
-            console.log("Aluno: " + i);
-            console.log("Notas: " + notasAluno);
-
-            for (c = 0; c < notasAluno.length; c++) {
-                nota += notasAluno[c];
-            }
-
-            media = nota / 4;
-
-            if (media >= 7) {
-                resultado = "aprovado ";
-            } else {
-                resultado = "reprovado ";
-            }
-
-            console.log("Media: " + media + "-" + resultado);
-        }
+        <div id="resultado"></div>
 
 
-        // Funções recursivas
 
-        function contagemRegressiva(numero) {
 
-            console.log(numero);
-
-            let proximoNumero = numero - 1;
-
-            if (proximoNumero > 0)
-                contagemRegressiva(proximoNumero);
-        }
-
-        contagemRegressiva(10);
-
-    </script>
+    </div>
 
 </body>
 

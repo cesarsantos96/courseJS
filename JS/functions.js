@@ -14,9 +14,9 @@ function calcularMedia(notas) {
 
 function aprovacao(media) {
 
-    let condicao = media >= 7 ? "aprovado" : "reprovado";
+    let condicao = media >= 8 ? "aprovado" : "reprovado";
 
-    return condicao;
+    return 'Média: ' + media + '- Resultado' + condicao;
 
 }
 
