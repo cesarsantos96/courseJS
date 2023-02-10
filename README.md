@@ -384,3 +384,87 @@
         }
 
         contagemRegressiva(10);
+
+# DOM 
+
+- Document Object Model
+- Estrutura de um arquivo na web
+- Representa documentos HTML ou XML
+- Interface de programação 
+- Não é uma linguagem de programação
+- É essencial para o JS entender o modelo e página web
+
+## Para que serve? 
+- Alterar a estrutura 
+- Alterar o estilo
+- Alterar o conteúdo 
+
+## Como?
+- Disponibilizando API (Application Programming Interface)
+- Rotinas e padrões definidos
+- Métodos (funções)
+- Árvore de elementos
+- Seletores
+- Objetos (nós / nodes)
+
+## Exemplo HTML
+
+        <html>
+            <head></head>
+            <body><body>
+        </html>
+## Exemplo Obj 
+
+        objeto = {
+            html:{
+                head : {},
+                body : {
+                    h1 :{
+
+                    }
+                }
+            }
+        }
+
+## DOM X JS
+
+- o DOM pode ser usado por outras linguagens
+- Sem o DOM o JS não teria noção da página
+
+### Vantagens de usar o JavaScript
+
+- Código é executado por navegadores
+- Tornar as páginas dinâmicas 
+- evitar Requisições desnecessárias (performance)
+- SPS (Single Page Applications)
+- Reagir rapidamente as ações dos usuários
+
+### Desvantagens de usar o JavaScript
+
+- Código é executado por navegadores
+- O conteúdo NÃO fica visível para indexadores de busca
+- Alterações em tempo de execução não ficam salvas no documento
+
+### Exemplos 
+
+Seleciona o objeto e diponibiliza (métodos / funções).callback
+
+- document.getElementById (id)
+- document.getElementByTagName ('div')
+- document.createElement ('div')
+- parentNode.appendChild (node) // html.appendChild ('body)
+- element.innerHTML 
+- element.style 
+- element.setAttribute ('name').value
+- element.getAttribute ('name')
+- element.addEventListener()
+- window.location
+- window.onload 
+- console.log()
+- window.scrollTo() 
+
+### Referências 
+ 
+- DOM: https://dom.spec.whatwg.org/
+- Javascript: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/JavaScript_technologies_overview 
+- Motores de execução: https://pt.wikipedia.org/wiki/Lista_de_motores_de_renderiza%C3%A7%C3%A3o 
