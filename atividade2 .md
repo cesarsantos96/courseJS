@@ -48,7 +48,6 @@ e)	Quantas prestações são necessárias para pagar o valor do carro com uma en
     var installmentAmount = 750;
     var remainingBalance = totalCost - downPayment;
     var numberOfInstallments = remainingBalance / installmentAmount;
-
     console.log(numberOfInstallments);
 
 
