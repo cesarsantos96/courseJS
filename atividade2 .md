@@ -36,10 +36,16 @@
 
 2.	Responda as perguntas de acordo com as variáveis.
 var branco = “preto”; var preto = “cinza”; var cinza = “branco”; var carro = “preto”; var valor = 30000; var prestacao = 750;
+
+
 a)	branco == “branco” -  False boolean 
+
 b)	branco == cinza -False boolean
+
 c)	carro === branco TRUE – boolean 
+
 d)	var cavalo = carro == “preto” ? “cinza” : “marron”;  CINZA  STRING
+
 e)	Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000? Demonstre a operação.  36 vezes 
 
 
