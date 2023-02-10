@@ -107,13 +107,12 @@ e)	Quantas prestações são necessárias para pagar o valor do carro com uma en
 
 f)	Somando as variáveis de cores é formada uma string de quantos caracteres? 
 
-21 caracteres
+21 caracteres 
 
-
-        var downPayment = 3000;
-        var totalCost = 30000;
-        var installmentAmount = 750;
-        var remainingBalance = totalCost - downPayment;
-        var numberOfInstallments = remainingBalance / installmentAmount;
-
-        console.log(numberOfInstallments);
+        
+    var branco = "preto";
+    var preto = "cinza";
+    var cinza = "branco";
+    var carro = "preto";
+    var colors = branco + " " + cinza + " " + preto;
+    console.log(colors.length); // 21
