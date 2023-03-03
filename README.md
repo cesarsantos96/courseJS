@@ -463,8 +463,20 @@ Seleciona o objeto e diponibiliza (métodos / funções).callback
 - console.log()
 - window.scrollTo() 
 
+## Seletores
+- Tipos de seletores: Tag, ID, Class, Name e Query 
+- Callback 
+    - getElementById()
+    - getElementByTagName()
+    - getElementByName()
+    - getElementByClassName()
+    - querySelectorAll() // id | .class 
+
+
+
 ### Referências 
  
 - DOM: https://dom.spec.whatwg.org/
 - Javascript: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/JavaScript_technologies_overview 
 - Motores de execução: https://pt.wikipedia.org/wiki/Lista_de_motores_de_renderiza%C3%A7%C3%A3o 
+
